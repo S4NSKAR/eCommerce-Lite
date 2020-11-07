@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+Prosopper Store
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Addons/css/bootstrap.min.css">
+<link rel="stylesheet" href="Addons/style.css">
+<script src = "Addons/popper.min.js"></script>
+<script src = "Addons/jquery-3.5.1.min.js"></script>
+<script src = "Addons/angular.min.js"></script>
+<script src = "Addons/js/bootstrap.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".flip").click(function(){
+    $(".panel").slideToggle("slow");
+  });
+});
+</script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fized-top">
+	<a class="navbar-brand" href="Index.html">
+		<img src="Media/logo2.png" alt="Logo" style="width:140px; height:70px;">
+	</a>
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="Index.html">Home</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Products
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#gaming_laptops">Gaming Laptops</a>
+        <a class="dropdown-item" href="#portable_laptops">Portable Laptops</a>
+        <a class="dropdown-item" href="#budget_friendly_laptops">Budget Friendly Laptops</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Contact Us.html">Contact Us</a>
+    </li>    
+	<li class="nav-item">
+      <a class="nav-link" href="Login.html">Login</a>
+    </li>	
+	<li class="nav-item">
+      <a class="nav-link" href="Register.html">Register</a>
+    </li>
+  </ul>
+</nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Media/01.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="Media/02.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="Media/03.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br><br>
+<div class="flip"><a id="gaming_laptops"><H2 align="center" style="padding:10px;">Gaming Laptops</H2></a> </div>
+<div class="panel">- Powerful Performance<br>- Could handle heavy games<br>- Future proof</div>
+<div class="flex-container">
+  <div>
+	<img src="Media/product1.jpg" alt="Chicago" width="200" height="200" align="left">
+	AMD Ryzen 5<br>
+	8GB RAM <br>
+	1TB SSD<br>
+	GTX 1650Ti<br><br>
+	<a href="Product1.html"><button type="button" class="btn btn-danger">Buy at Rs.89,999</button></a>
+  </div>  
+  <div>
+	<img src="Media/product2.jpg" alt="Chicago" width="200" height="180" align="left">
+	AMD Ryzen 5<br>
+	8GB RAM <br>
+	1TB HD<br>
+	GTX 1650<br><br>
+	<a href="Product2.html"><button type="button" class="btn btn-danger">Buy at Rs.51,999</button></a>
+  </div>  
+  <div>
+	<img src="Media/product3.jpg" alt="Chicago" width="200" height="200" align="left">
+	Intel i5 9th Gen<br>
+	8GB RAM <br>
+	512GB SSD<br>
+	GTX 1650<br><br>
+	<a href="Product3.html"><button type="button" class="btn btn-danger">Buy at Rs.63,999</button></a>
+  </div>
+</div>
+<br><br>
+<div class="flip"><a id="portable_laptops"><H2 align="center" style="padding:10px;">Portable Laptops</H2></a></div>
+<div class="panel">- Light weight laptop<br>- Long battery life<br>- No worry about falling</div>
+<div class="flex-container">
+  <div>
+	<img src="Media/product4.jpg" alt="Chicago" width="200" height="200" align="left">
+	Intel i5 10th Gen<br>
+	8GBB RAM <br>
+	512GB SSD<br>
+	1.35KG<br><br>
+	<a href="Product4.html"><button type="button" class="btn btn-danger">Buy at Rs.83,999</button></a>
+  </div>  
+  <div>
+	<img src="Media/product5.jpg" alt="Chicago" width="200" height="200" align="left">
+	Intel i5 10th Gen<br>
+	8GB RAM <br>
+	512GB SSD<br>
+	1.5KG<br><br>
+	<a href="Product5.html"><button type="button" class="btn btn-danger">Buy at Rs.43,999</button></a>
+  </div>  
+  <div>
+	<img src="Media/product6.jpg" alt="Chicago" width="200" height="150" align="left">
+	Intel i5 8th Gen<br>
+	8GB RAM <br>
+	256GB SSD<br>
+	2.02KG<br><br>
+	<a href="Product6.html"><button type="button" class="btn btn-danger">Buy at Rs.89,999</button></a>
+  </div>
+</div>
+<br><br>
+<div class="flip"><a id="budget_friendly_laptops"><H2 align="center" style="padding:10px;">Bedget Friendly Laptops</H2></a></div>
+<div class="panel">- Most value for money<br>- Ideal for students with basic works<br>- No compromise in quality</div>
+<div class="flex-container">
+  <div>
+	<img src="Media/product7.jpg" alt="Chicago" width="200" height="170" align="left">
+	AMD Dual Core<br>
+	4GB RAM <br>
+	1TB HD<br>
+	Integrated Graphics<br><br>
+	<a href="Product7.html"><button type="button" class="btn btn-danger">Buy at Rs.31,999</button></a>
+  </div>  
+  <div>
+	<img src="Media/product8.jpg" alt="Chicago" width="200" height="200" align="left">
+	Celeron N4000<br>
+	4GB RAM <br>
+	128GB SSD<br>
+	Integrated Graphics<br><br>
+	<a href="Product8.html"><button type="button" class="btn btn-danger">Buy at Rs.17,999</button></a>
+  </div>  
+  <div>
+	<img src="Media/product9.jpg" alt="Chicago" width="200" height="200" align="left">
+	AMD 3020e<br>
+	4GB RAM <br>
+	1TB HD<br>
+	Intergated Graphics<br><br>
+	<a href="Product9.html"><button type="button" class="btn btn-danger">Buy at Rs.25,999</button></a>
+  </div>
+</div>
+<br><br>
+<div align="center">
+<H3>Guides: <H3>
+<a href="https://www.laptopmag.com/articles/laptop-buying-guide" target="_blank"><H5>How to choose a laptop suitable to you?</H5></a>
+<a href="https://medium.com/@catherinetabuena/ten-wonderful-reasons-why-you-should-buy-a-gaming-laptop-35b406d3c17a" target="_blank"><H5>Should you buy Gaming Laptop?</H5></a>
+<a href="https://techgearoid.com/articles/pros-and-cons-of-laptops/" target="_blank"><H5>Pros and Cons of a laptop?</H5></a>
+</div>
+<br>
+</body>
+</html>
